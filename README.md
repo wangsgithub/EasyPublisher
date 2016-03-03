@@ -4,8 +4,10 @@ EasyPublisher是EasyDarwin开源团队开发的一款直播推送库，支持And
 
 **EasyPublisher SDK库个人使用免费，企业及商用需要经过授权**；
 
+![EasyPublisher](http://www.easydarwin.org/skin/easydarwin/images/easypublisherv1.0.16.0303.png)
+
 ## 调用过程 ##
-![](http://www.easydarwin.org/skin/easydarwin/images/easypublisher20160222.png)
+![EasyPublisher SDK](http://www.easydarwin.org/skin/easydarwin/images/easypublisher20160222.png)
 
 ## 获取更多信息 ##
 
