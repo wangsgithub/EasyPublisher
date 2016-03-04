@@ -2,7 +2,7 @@
 
 EasyPublisher是EasyDarwin开源团队开发的一款直播推送库，支持Android、IOS直播推送，基于RTMP协议，支持标准RTMP流媒体服务器以及网宿、蓝汛等cdn，SDK调用流程简单；
 
-你可以用网页进行播放测试：[http://www.easydarwin.org/easyplayer/easyplayer.html](http://www.easydarwin.org/easyplayer/easyplayer.html "EasyDarwin Player")
+你可以用网页进行播放测试：<a href="http://www.easydarwin.org/easyplayer/easyplayer.html" target="_blank">http://www.easydarwin.org/easyplayer/easyplayer.html</a>
 
 也可以下载Github中的EasyRTMPPlayer进行播放测试；
 
