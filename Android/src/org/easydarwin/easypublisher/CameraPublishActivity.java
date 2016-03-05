@@ -78,7 +78,7 @@ public class CameraPublishActivity extends Activity implements Callback, Preview
     {
         Log.i(TAG, "onCreate..");
 
-        publishURL = baseURL + String.valueOf((int)( System.currentTimeMillis() % 1000000));     
+        publishURL = baseURL + String.valueOf((int)( System.currentTimeMillis() % 1000000));
         
         printText = printText + publishURL;
         
@@ -358,8 +358,11 @@ public class CameraPublishActivity extends Activity implements Callback, Preview
 	        {
 	        	 currentCameraType = BACK;
 	        }
-			
-			mCamera = openCamera(currentCameraType);
+	        
+	        if ( mCamera == null )
+	        {
+	        	mCamera = openCamera(currentCameraType);
+	        }
 			
         } catch (Exception e) {
             e.printStackTrace();
@@ -376,21 +379,7 @@ public class CameraPublishActivity extends Activity implements Callback, Preview
 	@Override
 	public void surfaceDestroyed(SurfaceHolder holder) {
 		// TODO Auto-generated method stub
-		Log.i(TAG, "Surface Destroyed"); 
-		if (mCamera != null) {  
-            mCamera.setPreviewCallback(null);  
-            mCamera.stopPreview();  
-            mPreviewRunning = false;  
-            mCamera.release();  
-            mCamera = null;  
-        }  
-		
-		if(audioRecord_ != null)
-        {
-			Log.i(TAG, "surfaceDestroyed, call StopRecording.."); 
-        	audioRecord_.StopRecording();
-        	audioRecord_ = null;
-        }
+		Log.i(TAG, "Surface Destroyed");
 	}
 	
 	public void onConfigurationChanged(Configuration newConfig) {  
