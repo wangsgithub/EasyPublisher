@@ -64,16 +64,18 @@
                 android:singleLine="false"
                 android:text="@string/publisherURL"
                 tools:context=".CameraPublishActivity" />
-
-            <TextView
-                android:id="@+id/txtCopyright"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:singleLine="false"
-                android:text="@string/copyright"
-                tools:context=".CameraPublishActivity" />
         </LinearLayout>
         <!--  -->
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtCopyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:singleLine="false"
+        android:text="@string/copyright"
+        tools:context=".CameraPublishActivity" />
 
 </RelativeLayout>
