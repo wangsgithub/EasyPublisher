@@ -4,7 +4,8 @@ EasyPublisher是EasyDarwin开源团队开发的一款直播推送库，支持And
 
 你可以用网页进行播放测试：<a href="http://www.easydarwin.org/easyplayer/easyplayer.html" target="_blank">http://www.easydarwin.org/easyplayer/easyplayer.html</a>
 
-也可以下载Github中的EasyRTMPPlayer进行播放测试；
+EasyPublisher同批发布了EasyRTMPPlayer版本，其起播和播放功能都是经过优化的，效果最佳！目录位置：**./RTMPPlayer/**
+
 
 **EasyPublisher SDK库个人使用免费，企业及商用需要经过授权**；
 
